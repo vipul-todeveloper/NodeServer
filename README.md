@@ -2,16 +2,3 @@ NodeServer
 ==========
 
 This contains rest details of shopping App with mysql
-
-Rest call details 
-[http://192.168.0.17:3000]
------------------------ Admin Registration -----------------------
-
-url : /v0/admin
-type: post
-input parameters : {firstname : "admin",user="admin",pass="admin",email="admin@admin.com"}
-output :
-    > success:
-      {IsSuccess:true,data:[],msg:""}
-    > Error :
-      {IsSuccess:false,msg:"",desc:""}
